@@ -1,0 +1,2 @@
+# statis
+layout web statis
