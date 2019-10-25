@@ -8,7 +8,7 @@
      background-color: transparent;
      overflow-x: hidden;
      padding-top: 20px;
-     text-align: left;
+     text-align: right;
  }
 
  /* Style the sidenav links and the dropdown button */
@@ -22,9 +22,18 @@
      border: none;
      background: none;
      width: 100%;
-     text-align: left;
+     text-align: right;
      cursor: pointer;
      outline: none;
+ }
+
+ .roll {
+     overflow-x: scroll;
+ }
+
+ body {
+     overflow: hidden;
+
  }
 
  /* On mouse-over */
@@ -59,4 +68,103 @@
  .fa-caret-down {
      float: right;
      padding-right: 8px;
+ }
+
+ .hide {
+     display: none;
+ }
+
+ .monitor {
+     margin-right: -7%;
+     margin-left: 13%;
+
+ }
+
+
+ /* /////////////////////////////////////////////////////
+ laptop setting
+
+ //////////////////////////////////////////////////// */
+
+ @media only screen and (min-width :1280px) and (max-width: 1366px) {
+
+     .sidenav {
+         height: 100%;
+         width: 200px;
+         z-index: 1;
+         top: 0;
+         left: 0;
+         background-color: transparent;
+         overflow-x: hidden;
+         padding-top: 20px;
+         text-align: right;
+
+     }
+
+     .logo {
+         margin-top: 5%;
+     }
+
+     .monitor {
+         margin-right: -7%;
+         margin-left: 9%;
+
+     }
+ }
+
+
+ /* /////////////////////////////////////////////////////
+        ipad setting
+
+ //////////////////////////////////////////////////// */
+ @media only screen and (min-width :800px) and (max-width: 1023px) {
+
+     .monitor {
+         margin-right: 4%;
+         margin-left: 2%;
+     }
+
+     .hide-btn {
+
+         display: none;
+     }
+
+ }
+
+ /* /////////////////////////////////////////////////////
+        android setting
+
+ //////////////////////////////////////////////////// */
+
+
+ @media only screen and (max-width: 799px) {
+
+     .logo {
+         margin-top: 5%;
+     }
+
+     .hide {
+         display: block;
+     }
+
+
+     .sidenav {
+         display: none;
+         height: 100%;
+         width: 200px;
+         z-index: 1;
+         top: 0;
+         left: 0;
+         background-color: transparent;
+         overflow-x: hidden;
+         padding-top: 20px;
+         text-align: right;
+
+     }
+
+     .logo {
+         margin-top: 5%;
+         text-align: right;
+     }
+
  }
