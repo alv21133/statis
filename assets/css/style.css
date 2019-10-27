@@ -31,9 +31,18 @@
      overflow-x: scroll;
  }
 
- body {
+ .sosmed {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
      overflow: hidden;
+     float: right;
+     margin-top: 10%;
+ }
 
+ .sosmed-ikon {
+     float: left;
+     margin: 10px;
  }
 
  /* On mouse-over */
@@ -77,6 +86,8 @@
  .monitor {
      margin-right: -7%;
      margin-left: 13%;
+     position: fixed;
+     overflow-x: hidden;
 
  }
 
@@ -110,6 +121,10 @@
          margin-left: 9%;
 
      }
+
+     body {
+         overflow-x: scroll;
+     }
  }
 
 
@@ -129,6 +144,9 @@
          display: none;
      }
 
+     body {
+         overflow-x: hidden;
+     }
  }
 
  /* /////////////////////////////////////////////////////
@@ -138,6 +156,9 @@
 
 
  @media only screen and (max-width: 799px) {
+     body {
+         overflow-x: hidden;
+     }
 
      .logo {
          margin-top: 5%;
@@ -147,6 +168,9 @@
          display: block;
      }
 
+     .video {
+         margin: 6px;
+     }
 
      .sidenav {
          display: none;
@@ -165,6 +189,12 @@
      .logo {
          margin-top: 5%;
          text-align: right;
+     }
+
+     .monitor {
+         position: relative;
+         overflow-x: hidden;
+
      }
 
  }
