@@ -17,32 +17,39 @@
     <div class="container-fluid">
         <div class="row" style="margin-top: 4%;">
             <!-- kiri -->
-            <div class="col-md-2 offset-md-1 monitor">
+            <div class="col-md-1"></div>
+            <div class="col-md-2  monitor">
                 <!-- navbar -->
                 <nav class="navbar navbar-expand-lg navbar-light ">
-                    <a href="index.html"><img src="assets/images/logo.JPG" width="180" height="70" alt=""></a>
+                    <a href="index.html"><img src="assets/images/logo_fix.png" width="180" height="45"></a>
                     <button class="navbar-toggler hide-btn" type="button" data-toggle="collapse"
                         data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                         aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon "></span>
                     </button>
-
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav text-right hide">
-                            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                            <a class="nav-item nav-link" href="#">Features</a>
-                            <a class="nav-item nav-link" href="#">Pricing</a>
-                            <a class="nav-item nav-link disabled" href="#" tabindex="-1"
-                                aria-disabled="true">Disabled</a>
+                            <a class="nav-item nav-link active" href="index.html">Info <span
+                                    class="sr-only">(current)</span></a>
+                            <a class="nav-item nav-link" href="handling_website.html">Handling Website</a>
+                            <button class="dropdown-btn">Handling Social Media</button>
+                            <div class="dropdown-container">
+                                <a style="color: rgb(31, 30, 30);" href="youtube.html">Youtube</a> <br>
+                                <a style="color: black;" href="instagram.html">Instagram</a>
+                            </div>
+                            <a class="nav-item nav-link" href="vertical-video.html">Video Vertical</a>
+                            <a class="nav-item nav-link" href="client.html">Clients</a>
+
                         </div>
                     </div>
                     <!-- sosmed kiri -->
-                    <ul class="sosmed hide" style="display:inline-flexbox;">
+                    <ul class="sosmed hide-btn hide" style="display:inline-flexbox;">
                         <li class="sosmed-ikon">
                             <img width="31" src="assets/images/sosmed/instagram.svg" alt="instagram">
                         </li>
                         <li class="sosmed-ikon">
-                            <img width="31" src="assets/images/sosmed/whatsapp.svg" alt="whatsapp">
+                            <a href="https://wa.me/081225102019"><img width="31" src="assets/images/sosmed/whatsapp.svg"
+                                    alt="whatsapp"></a>
                         </li>
                         <li class="sosmed-ikon">
                             <img width="31" src="assets/images/sosmed/youtube.svg" alt="youtube">
@@ -51,26 +58,28 @@
                     <!-- sosmedkiri -->
                 </nav>
                 <!-- navbar -->
-
                 <div class="sidenav">
-                    <a href="#about">info</a>
+                    <a href="index.html">Info</a>
+                    <a href="handling_website.html">Handling Website</a>
                     <button class="dropdown-btn">
-                        <i style="position: absolute; right: 70%;"><img width="15" src="assets/images/sosmed/down.svg"
-                                alt=""></i>
-                        Services
+                        <!-- <i style="position: absolute; right: 70%;"><img width="15" src="aassets/images/sosmed/down.svg"
+                                alt=""></i> -->
+                        Handling Social Media
                     </button>
                     <div class="dropdown-container">
-                        <a href="#">Website</a>
-                        <a href="video.html">Multimedia</a>
+                        <a href="youtube.html">Youtube</a>
+                        <a href="instagram.html">Instagram</a>
                     </div>
-                    <a href="#clients">Clients</a>
+                    <a href="vertical-video.html">Video Vertical</a>
+                    <a href="client.html">Clients</a>
                     <!-- sosmed kiri -->
                     <ul class="sosmed" style="display:inline-flexbox;">
                         <li class="sosmed-ikon">
                             <img width="31" src="assets/images/sosmed/instagram.svg" alt="instagram">
                         </li>
                         <li class="sosmed-ikon">
-                            <img width="31" src="assets/images/sosmed/whatsapp.svg" alt="whatsapp">
+                            <a href="https://wa.me/081225102019" style="padding: 0px;"><img width="31"
+                                    src="assets/images/sosmed/whatsapp.svg" alt="whatsapp"></a>
                         </li>
                         <li class="sosmed-ikon">
                             <img width="31" src="assets/images/sosmed/youtube.svg" alt="youtube">
@@ -82,36 +91,57 @@
 
             <!-- kiri -->
             <!-- kanan -->
-            <div class="col-md-6 offset-md-4">
+            <div class="col-md-8 offset-md-2">
                 <!-- navbar -->
-                <nav class="navbar navbar-light ">
-                    <a class="navbar-brand" href="#">
-                    </a>
-                </nav>
                 <!-- navbar -->
-                <h3 class="font-weight-bold">FILEMS</h3>
-                <div class="row">
-                    <img src="assets/images/filem.JPG">
+                <div class="">
+
+                    <div id="carouselExampleIndicators" class="carousel slide slideInLeft " data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+
+                            <div class=" carousel-item active slideInLeft">
+                                <h4 class="font-weight-bold judul-karosel">ABAOUT & TEAM</h4>
+                                <img src="assets/images/1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <h4 class="font-weight-bold judul-karosel">2015</h4>
+                                <img src="assets/images/filem.JPG" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <h4 class="font-weight-bold judul-karosel">2019</h4>
+                                <img src="assets/images/3.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <h4 class="font-weight-bold judul-karosel">CONTACT</h4>
+                                <img src="assets/images/filem.JPG" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+
                 </div>
-                <br>
-                <br>
-                <h3 class="font-weight-bold">Video Company Profile PT. YPTI</h3>
-                <p>
-                    Standart video company profile kami berisi penjelasan tentang profil perusahan secara umum dan
-                    lengkap. Didalamnya terdiri dari sejarah perusahaan, sambutan direktur untuk menjelaskan visi dan
-                    misi, prestasi yang pernah diraih, menjelaskan produk-produk unggulan, memamerkan kapasitas dan
-                    fasilitas manufacture yang dimiliki dengan penerapan aturan sesuai dengan standart internasional
-                    seperti 5S (Seiri, Seiton, Seiso, Seiketsu, Shitsuke).
-                </p>
             </div>
-            <div class="col-md-2"></div>
+            <div class="col-md-1"></div>
         </div>
-    </div>
-    <script src=" assets/vendor/bootstrap/jquery.min.js"> </script>
-    <script src=" assets/js/style.js"> </script>
-    <script src="assets/vendor/bootstrap/popper.js">
-    </script>
-    <script src="assets/vendor/bootstrap/bootstrap.min.js"></script>
+        <script src=" assets/vendor/bootstrap/jquery.min.js"> </script>
+        <script src=" assets/js/style.js"> </script>
+        <script src="assets/vendor/bootstrap/popper.js">
+        </script>
+        <script src="assets/vendor/bootstrap/bootstrap.min.js"></script>
 </body>
 
 </html>

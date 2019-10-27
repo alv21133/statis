@@ -7,8 +7,8 @@
      left: 0;
      background-color: transparent;
      overflow-x: hidden;
-     padding-top: 20px;
      text-align: right;
+     margin-top: 20%;
  }
 
  /* Style the sidenav links and the dropdown button */
@@ -16,8 +16,8 @@
  .dropdown-btn {
      padding: 6px 8px 6px 16px;
      text-decoration: none;
-     font-size: 20px;
-     color: #818181;
+     font-size: 14px;
+     color: #000000;
      display: block;
      border: none;
      background: none;
@@ -31,6 +31,14 @@
      overflow-x: scroll;
  }
 
+ ul {
+     /* this will apply to inner UL, adapt to your desired selector */
+     -webkit-transition: height 0.3s ease-in-out;
+     -o-transition: height 0.3s ease-in-out;
+     -moz-transition: height 0.3s ease-in-out;
+     transition: height 0.3s ease-in-out;
+ }
+
  .sosmed {
      list-style-type: none;
      margin: 0;
@@ -42,13 +50,13 @@
 
  .sosmed-ikon {
      float: left;
-     margin: 10px;
+     margin: 5px;
  }
 
  /* On mouse-over */
  .sidenav a:hover,
  .dropdown-btn:hover {
-     color: #000000;
+     color: #949090;
  }
 
  /* Main content */
@@ -63,7 +71,8 @@
  /* Add an active class to the active dropdown button */
  .active {
      background-color: rgb(255, 255, 255);
-     color: rgb(0, 0, 0);
+     color: #363535;
+
  }
 
  /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
@@ -84,13 +93,15 @@
  }
 
  .monitor {
-     margin-right: -7%;
-     margin-left: 13%;
+     margin-right: -6%;
+     margin-left: 8%;
      position: fixed;
-     overflow-x: hidden;
-
  }
 
+
+ .judul-karosel {
+     margin-bottom: 27px;
+ }
 
  /* /////////////////////////////////////////////////////
  laptop setting
@@ -101,29 +112,30 @@
 
      .sidenav {
          height: 100%;
-         width: 200px;
+         width: 240px;
          z-index: 1;
          top: 0;
          left: 0;
          background-color: transparent;
          overflow-x: hidden;
-         padding-top: 20px;
+         padding-top: 10px;
          text-align: right;
+         margin-left: -37px;
 
      }
 
      .logo {
-         margin-top: 5%;
+         margin-bottom: -15%;
      }
 
      .monitor {
          margin-right: -7%;
-         margin-left: 9%;
+         margin-left: 6%;
 
      }
 
      body {
-         overflow-x: scroll;
+         overflow-x: hidden;
      }
  }
 
@@ -158,6 +170,10 @@
  @media only screen and (max-width: 799px) {
      body {
          overflow-x: hidden;
+     }
+
+     .hide-btn {
+         margin-left: 45px;
      }
 
      .logo {
