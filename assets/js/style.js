@@ -15,5 +15,5 @@ for (i = 0; i < dropdown.length; i++) {
 }
 
 $('.carousel').carousel({
-  interval: 4000
+  interval: 12000
 });

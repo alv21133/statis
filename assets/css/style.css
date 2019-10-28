@@ -11,6 +11,11 @@
      margin-top: 20%;
  }
 
+ div {
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+
  /* Style the sidenav links and the dropdown button */
  .sidenav a,
  .dropdown-btn {
@@ -45,7 +50,7 @@
      padding: 0;
      overflow: hidden;
      float: right;
-     margin-top: 10%;
+     margin-top: 98%;
  }
 
  .sosmed-ikon {
@@ -100,7 +105,9 @@
 
 
  .judul-karosel {
-     margin-bottom: 27px;
+     margin-top: 2px;
+     margin-bottom: 21px;
+     color: #000000;
  }
 
  /* /////////////////////////////////////////////////////
@@ -108,7 +115,7 @@
 
  //////////////////////////////////////////////////// */
 
- @media only screen and (min-width :1280px) and (max-width: 1366px) {
+ @media only screen and (min-width :1201px) and (max-width: 1366px) {
 
      .sidenav {
          height: 100%;
@@ -129,8 +136,8 @@
      }
 
      .monitor {
-         margin-right: -7%;
-         margin-left: 6%;
+         margin-right: 2%;
+         margin-left: 5%;
 
      }
 
@@ -140,15 +147,52 @@
  }
 
 
+ /* 
+ ///////////////////////////////
+    Apple ipad
+ //////////////// */
+ @media only screen and (min-width:1000px) and (max-width: 1200px) {
+     .sidenav {
+         height: 100%;
+         width: 230px;
+         z-index: 1;
+         top: 0;
+         left: 0;
+         background-color: transparent;
+         overflow-x: hidden;
+         padding-top: 10px;
+         text-align: right;
+         margin-left: -37px;
+
+     }
+
+     .monitor {
+         margin-left: -4%;
+         margin-right: 9%;
+     }
+
+     .kanan {
+         margin-left: 5%;
+     }
+
+
+     .judul-karosel {
+         margin-top: 3.5px;
+         margin-bottom: 22px;
+     }
+
+     /* your css rules for ipad landscape */
+ }
+
  /* /////////////////////////////////////////////////////
         ipad setting
 
  //////////////////////////////////////////////////// */
- @media only screen and (min-width :800px) and (max-width: 1023px) {
+ @media only screen and (min-width :1068px) and (max-width: 1100px) {
 
      .monitor {
-         margin-right: 4%;
-         margin-left: 2%;
+         margin-right: 2%;
+         margin-left: -4%;
      }
 
      .hide-btn {
